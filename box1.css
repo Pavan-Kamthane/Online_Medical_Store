@@ -1,0 +1,86 @@
+.box1 {
+    background-image: url("bg1.png");
+    height: 700px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.box1 .miniheader {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box1 .miniheader span {
+    padding: 0 5px;
+}
+
+.box1 .miniheader .login {
+    margin: 0 10px;
+}
+
+.box1 .miniheader .timing {
+    margin-left: 15px;
+}
+
+.box1 .miniheader .timing1 {
+    color: orange;
+}
+
+.bttn {
+    font-weight: 700;
+    padding: 8px 20px;
+    border: none;
+    /* background: #4ca8e1; */
+    border-radius: 6%;
+    cursor: pointer;
+    color: #ffffff;
+    /* make it at right */
+    height: 1px;
+    width: auto;
+
+}
+
+.bttn:hover {
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+    background-color: white;
+    color: black;
+
+}
+
+
+.header{
+    width: 100vw;
+    /* position: sticky; */
+    top: 0;
+    z-index: 100;
+    background-color: transparent;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.box1 .content_of_box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 50px;
+    padding: 20px;
+    height: 100%;
+    font-size: 25px;
+}
+
+.box1 .content_of_box1 div pre{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
